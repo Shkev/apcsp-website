@@ -2,3 +2,22 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  color: #bcd529;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 350px; 
+}
+
+#grad1 {
+  background-image: linear-gradient(to bottom right, #13BBA2, #0AA7AB);
+  height: 500px;
+  width: 300px;
+}
+
