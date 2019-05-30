@@ -8,6 +8,10 @@ h2 {
   color: #FcEA39;
 }
 
+h3 {
+  face: bold;
+}
+
 img {
   display: block;
   margin-left: auto;
