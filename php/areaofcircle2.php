@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Form Input 2</title>
+    <title>Area of Circle</title>
   </head>
-
-
   <body>
 
-    <h1>Form Input - Demo 2</h1>
-    <p>Demo of how to take form input and pass it to a program - all in a single page</p>
+    <h1>Find Area of Circles given Radii</h1>
 
     <?php
        // define variables and set to empty values
@@ -17,7 +14,7 @@
        if ($_SERVER["REQUEST_METHOD"] == "POST") {
          $arg1 = test_input($_POST["arg1"]);
          $arg2 = test_input($_POST["arg2"]);
-         exec("/usr/lib/cgi-bin/pi/argtest2 " . $arg1 . " " . $arg2, $output, $retc); 
+         exec("/usr/lib/cgi-bin/sp1b/php/areaofcircle2 " . $arg1 . " " . $arg2, $output, $retc); 
        }
 
        function test_input($data) {
