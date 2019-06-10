@@ -6,11 +6,9 @@
       body {
         background-image: url("koch-snowflake.jpg");
       }
-
       h4 {
         background-color: "blue"
       }
-      
       input {
         width: 5%;
       }
@@ -51,9 +49,9 @@
 
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
       
-      Equation 1: <input type="text" name="arg1" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg2" value="0"><i>x<sub>2</sub></i> <input type="text" name="arg3" value="0"><i>x<sub>3</sub></i>&nbsp  =&nbsp  <input type="text" name="arg4" value="0">
-      <p> </p>Equation 2: <input type="text" name="arg5" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg6" value="0"><i>x<sub>2</sub></i> <input type="text" name="arg7" value="0"><i>x<sub>3</sub></i>&nbsp=  &nbsp<input type="text" name="arg8" value="0">
-      <p> </p>Equation 3: <input type="text" name="arg9" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg10" value="0"><i>x<sub>2</sub></i \> <input type="text" name="arg11" Value="0"><i>x<sub>3</sub></i>&nbsp  =&nbsp  <input type="text" name="arg12" value="0">
+     Equation 1:  <input type="text" name="arg1" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg2" value="0"><i>x<sub>2</sub></i> <input type="text" name="arg3" value="0"><i>x<sub>3</sub></i>&nbsp  =&nbsp  <input type="text" name="arg4" value="0">
+      <br><br>Equation 2:   <input type="text" name="arg5" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg6" value="0"><i>x<sub>2</sub></i> <input type="text" name="arg7" value="0"><i>x<sub>3</sub></i>&nbsp=  &nbsp<input type="text" name="arg8" value="0">
+      <br><br>Equation 3:  <input type="text" name="arg9" value="0"><i>x<sub>1</sub></i> <input type="text" name="arg10" value="0"><i>x<sub>2</sub></i \> <input type="text" name="arg11" Value="0"><i>x<sub>3</sub></i>&nbsp  =&nbsp  <input type="text" name="arg12" value="0">
       <br>
       <input type="submit" value="Go!">
     </form>
